@@ -2,21 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     max-width: 100%;
+
+
 }
 
 body{
     font-family: "Mulish", sans-serif;
+    color: #131318;
 }
 .nav{
     max-width: 80%;
     /* background-color: red; */
     margin: 0 auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     align-items: center;
 }
 .nav-left{
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: flex;
     align-items: center;
     width: 50%;
@@ -35,15 +38,55 @@ body{
     color: #FF5400;
 }
 .nav-right{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50%;
     display: flex;
     justify-content: space-around;
 }
 .nav-right a{
     text-decoration: none;
+    color: #424247;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
 
+.banner{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1420px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    margin-left: 135px;
+    margin-right: 135px;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 200px;
+    padding: 0;
+    border-radius: 16px;
+
+}
+.banner h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner p{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+
+
+
+ 
+@media screen and (max-width:576px){
+    nav,
+    .nav-right{
+        flex-direction: column;
+    }
+}
