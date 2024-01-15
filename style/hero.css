@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
-    max-width: 100%;
-
+    /* max-width: 100%; */
+    padding: 0;
+    margin: 0;
 
 }
 
@@ -61,8 +62,8 @@ body{
     margin-left: 135px;
     margin-right: 135px;
     text-align: center;
-    margin-top: 0;
-    margin-left: 200px;
+    margin-top: 50px;
+    margin-left: 250px;
     padding: 0;
     border-radius: 16px;
 
@@ -71,6 +72,8 @@ body{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    padding-top: 120px;
+
 }
 .banner p{
     color: #FFF;
@@ -78,15 +81,92 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
+    /* margin-top: 80px; */
+    padding-top: 20px;
+}
+.where{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+    margin-top: 50px;
+}
+.where input{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFF;
+}
+.where button{
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
 }
 
 
 
-
  
-@media screen and (max-width:576px){
+@media screen and (max-width:600px){
+    *{
+        margin: 7px;
+    }
     nav,
-    .nav-right{
+    .nav-right,
+    .banner,
+    .banner h2,
+    .banner p,
+    .where
+    {
         flex-direction: column;
+        padding: 10px;
+        margin:10px;
+    }
+    .banner{
+        background-image: 100%;
+        /* width: 100%; */
+        display: 100%;
+        padding: 0px;
+        margin: 0px;
+        /* width: auto; */
+        height: 483px;
+        flex-shrink: 0;
+    }
+    .banner h2{
+        text-align: center;
+        display: flex;
+        font-size: 22px;
+        width: 200px;
+        height: 28px;
+        color: rgb(204, 125, 22);
+    }
+    .banner P{
+        align-items: center;
+        display: flex;
+        width: 300px;
+        height: 63px;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        color: rgb(204, 125, 22);
+    }
+    .where{
+        display: flex;
+        width: 287px;
+        padding: 0;
+        margin: 0;
+        margin-top: 55px;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
     }
 }
