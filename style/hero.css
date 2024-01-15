@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    max-width: 100%;
+}
+
+body{
+    font-family: "Mulish", sans-serif;
+}
+.nav{
+    max-width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.nav-left{
+    border: 2px solid tomato;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.nav-left img{
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+.nav-left p{
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+.Travel{
+    color: #FF5400;
+}
+.nav-right{
+    border: 2px solid blue;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-right a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
