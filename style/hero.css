@@ -579,8 +579,75 @@ hr{
         line-height: 24px;
         padding-left: 20px;
     }
-
-
+    .new input{
+        width: 258px;
+        height: 30px;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        padding-left: 25px;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .old{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 372px;
+    }
+    .save{
+        width: 150px;
+        height: 75px;
+        transform: rotate(-19.628deg);
+        border-radius: 20px;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        gap: 0;
+    }
+    .save h5{
+        font-size: 15px;
+        text-align: center;
+        width: 400;
+    }
+    .save h4{
+        font-size: 18px;
+        text-align: center;
+        font-weight: 800;
+    }
+    .footer{
+        flex-direction: column;
+        width: 372px;
+        height: 309px;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .footer-1{
+        display: flex;
+        align-items: center;
+        padding-left: 120px;
+    }
+    .footer-1 img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    .footer-1 p{
+        font-weight: 800;
+        font-size: 21.543px;
+    }
+    .p{
+        width: 287px;
+        text-align: center;
+        padding-left: 30px;
+        margin: 0;
+    }
+    .icon{
+        width: 174.322px;
+        height: 24px;
+        padding-right: 30px;
+    }
 }
 
 
