@@ -241,6 +241,7 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
     text-align: center;
     font-size: 24px;
     font-weight: 800;
+    padding-left: 32px;
 }
 .main p{
     width: 486px;
@@ -248,11 +249,16 @@ background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.
     font-size: 16px;
     font-weight: 400;
     line-height: 26px; 
+    padding-left: 32px;
 }
 .div{
     display: flex;
     width: 1440px;
     gap: 50px;
+}
+.icon-img{
+    padding-left: 30px;
+    padding-top: 32px;
 }
  .div-1{
     width: 573px;
@@ -328,27 +334,27 @@ height: 284px;
     background-image: url(../Images/Rectangle\ 8\ \(1\).png);
     background-repeat: no-repeat;
     width: 672px;
-    height: 422px;
+    height: 502px;
     border-radius: 16px;
 }
 .save{
-    width: 324px;
-    height: 120px;
-    transform: rotate(-19.628deg);
-    border-radius: 16px;
-    background: #FF5400;
+    background-color: #FF5400;
+    height: 80px;
+    width: 200px;
+    border-radius: 20px;
     text-align: center;
-    color: #FFF;
-    gap: 0;
-    align-content: flex-end;
+    position: relative;
+    transform: rotate(-45deg);
+    top: 50%;
+    left: 70%;
 }
 .save h5{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
 }
 .save h4{
     font-weight: 800;
-    font-size: 32px;
+    font-size: 22px;
 }
 .footer{
     width: 100%;
@@ -383,8 +389,14 @@ padding-left: 50%;
 .icon i{
     margin: 10px;
 }
+hr{
+    width: 50%;
+    padding-left: 35%;
+}
 .year{
     text-align: center;
+    padding-top: 20px;
+    padding-left: 175px;
 }
 
 
@@ -394,7 +406,7 @@ padding-left: 50%;
 
 
 
-
+ 
 
 @media screen and (max-width:600px){
     *{
@@ -551,5 +563,5 @@ flex-shrink: 0;
         height: 309px;
     }
 
-}
+} 
 
