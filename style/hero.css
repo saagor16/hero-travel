@@ -404,10 +404,7 @@ hr{
 
 
 @media screen and (max-width:600px) {
-    *{
-        
-      
-    }
+
     .banner,
     .tour{
         flex-direction: column;
@@ -524,9 +521,6 @@ hr{
     }
     .image-1, .image-2{
         flex-direction: column;
-        /* display: grid;
-        grid-template-columns: 1fr; */
-        /* width: 375px; */
         gap: 50px;
         padding-top: 10px;
     }
@@ -620,8 +614,8 @@ hr{
     .footer{
         flex-direction: column;
         width: 372px;
-        height: 309px;
-        justify-content: center;
+        height: 440px;
+        /* justify-content: center; */
         margin-top: 10px;
     }
     .footer-1{
@@ -644,9 +638,20 @@ hr{
         margin: 0;
     }
     .icon{
-        width: 174.322px;
-        height: 24px;
-        padding-right: 30px;
+        padding: 0 0 0 90px;
+    }
+    .icon i{
+       justify-content: center;
+    }
+    .year{
+        width: 176px;
+        height: 17px;
+        padding-left: 80px;
+    }
+    .year p{
+        align-items: center;
+        font-size: 14px;
+        font-weight: 300;
     }
 }
 
